@@ -17,7 +17,7 @@ emptymodel = False
 
 filename = 'stable_diffusion_1_5_webui_colab.ipynb'
 
-vclvarpath = '/content/vclvariables'
+vclvarpath = '/content/drive/MyDrive/vclvariables'
 
 def pickleload(prevvalue, inputfile):
     inputpath = os.path.join(vclvarpath, inputfile + '.pkl')
